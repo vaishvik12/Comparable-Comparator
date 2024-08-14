@@ -1,0 +1,40 @@
+#1 what is comperator?
+ans: 
+	comperator is a interface that we can use to compare some objects inside 
+	a list with each other and then sort them accordingly.
+	
+	Comperator provides built in method called as compare which is use to 
+	compare the current object(this) with the other object(other).
+	
+	if the state of current object is less then the state of other object it
+	returns -1
+	
+	if the state of both objects is equal it returns 0
+	
+	And if the state of current object is more than then other object 
+	it returns +1.
+
+	
+#2 What is the diffrence between comparable and comperator?
+ans:
+	-Comparable is used when you need to compare only one state of object with 
+	the other objects. For eg: If you need to know which employee have the 
+	highest salary you and that's the only information you need from that object 
+	you will use comparable.
+	-Comparable have compareTo method in it
+	-Comparable provide Collections.sort() functionality.
+	-Comparable does not have Overloaded method 
+	Collections.sort(list, new class) functionality to it.
+	
+	
+	
+	-Comparator is used when you need to compare many fields of the objects with 
+	the other objects. For eg: There are multiple different field you need to 
+	compare a object with like their id, salary, joining date etc, you will require
+	a comparator for it.
+	-Comparator have compare method in it.
+	-Comparable provides Collections.sort() functionality.
+	-Comparable have the functionality of Overloaded method
+	 Collections.sort(list, new class) functionality.
+
+	
